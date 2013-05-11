@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>EntitySystem.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>EntitySystemAggregate.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>EntitySystemTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MonsterWars.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>356FFF0C163C437000FB81B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>420C94DE173E6518004A7803</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>420C94F7173E66C5004A7803</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42C8BB4F173E5A4D00727064</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
