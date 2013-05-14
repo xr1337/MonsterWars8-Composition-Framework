@@ -71,4 +71,20 @@
     STAssertTrue(iEid.eid == eid, @"Component added");
 }
 
+- (void)testRemoveAllEntities
+{
+    // given
+    Component *component = [[Component alloc]init];
+    Entity *entity = [sut createEntity];
+    
+    //when
+    [sut addComponent:component toEntity:entity];
+    [sut removeAllEntities];
+    
+    // then
+    NSArray *arr = [sut getAllEntitiesPosessingComponentOfClass:[Component class]];
+    STAssertTrue(arr.count ==0, @"All entities should have been removed");
+    
+}
+
 @end

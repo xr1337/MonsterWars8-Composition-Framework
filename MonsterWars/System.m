@@ -18,7 +18,9 @@
     return self;
 }
 
+
 - (void)update:(float)dt {
+    NSAssert(true, @"Update should have been subclassed");
 }
 
 @end

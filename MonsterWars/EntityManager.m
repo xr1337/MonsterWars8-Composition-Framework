@@ -84,6 +84,14 @@
     [_entities removeObject:@(entity.eid)];
 }
 
+//Clears all entity
+- (void)removeAllEntities {
+    _lowestUnassignedEid = 1;
+    [_componentsByClass removeAllObjects];
+    [_entities removeAllObjects];
+}
+
+
 // Helper method to query all entities
 - (NSArray *)getAllEntitiesPosessingComponentOfClass:(Class)class {
     NSMutableDictionary * components = _componentsByClass[NSStringFromClass(class)];

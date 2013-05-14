@@ -14,10 +14,17 @@
 @interface EntityManager : NSObject
 
 + (EntityManager *)defaultManager;
+
 - (Entity *)createEntity;
+
 - (void)addComponent:(Component *)component toEntity:(Entity *)entity;
+
 - (Component *)getComponentOfClass:(Class)class forEntity:(Entity *)entity;
+
 - (void)removeEntity:(Entity *)entity;
+
+- (void)removeAllEntities;
+
 - (NSArray *)getAllEntitiesPosessingComponentOfClass:(Class)class;
 
 @end
